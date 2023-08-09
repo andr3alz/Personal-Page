@@ -151,19 +151,25 @@ h2 {
     width: 100%;
     padding: 100px;
 }
-.me-img {
+.me-stuff {
     display: flex;
     width: auto;
     height:50%;
     text-align: center;
     padding: 100px;
     justify-content: center;
+    
+}
+.me-img {
+    border-radius: 75%;
 }
 
 .myinfo {
     padding: 250px;
     display: flex;
-    justify-content: center;
+    justify-content:center ;
+    flex-direction: column;
+
 }
 .form-contain {
     padding: 100px;
